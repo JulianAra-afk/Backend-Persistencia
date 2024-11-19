@@ -1,0 +1,60 @@
+# .NET Core
+bin/
+obj/
+
+# ASP.NET Core
+wwwroot/
+
+# User-specific files
+.idea/
+.vscode/
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files for Visual Studio
+.vs/
+
+# JetBrains Rider files
+.idea/
+
+# SQLite database file (add the path where your SQLite DB is located)
+*.db
+
+*.db3
+
+# User secrets (don't check in sensitive data)
+secrets.json
+
+
+
+# ASP.NET Core - generated files
+/dist/
+build/
+
+# Log files
+logs/
+*.log
+
+# DotNet Core CLI files
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Core build artifacts
+*.user
+*.suo
+
+# Exclude the backup files and settings of IDEs
+.vscode/*
+.idea/*
+
+# Npm and Yarn
+node_modules/
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# OS-generated files
+.DS_Store
+*.swp
